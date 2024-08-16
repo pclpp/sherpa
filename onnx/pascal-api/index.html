@@ -185,11 +185,11 @@ mkdir<span class="w"> </span>build
 
 cmake<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-DBUILD_SHARED_LIBS<span class="o">=</span>ON<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DCMAKE_BUILD_TYPE<span class="o">=</span>Release<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-DCMAKE_INSTALL_PREFIX<span class="o">=</span>./install<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>..
 
-make
-make<span class="w"> </span>install
+cmake<span class="w"> </span>--build<span class="w"> </span>.<span class="w"> </span>--target<span class="w"> </span>install<span class="w"> </span>--config<span class="w"> </span>Release
 
 ls<span class="w"> </span>-lh<span class="w"> </span>install/lib
 </pre></div>

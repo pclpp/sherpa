@@ -394,8 +394,8 @@ wget<span class="w"> </span>https://github.com/k2-fsa/sherpa-onnx/releases/downl
 <p>If you are using macOS, please put it into <code class="docutils literal notranslate"><span class="pre">lazarus-examples/generate_subtitles/generate_subtitles.app/Contents/Resources/</span></code></p>
 </div>
 </section>
-<section id="download-an-speech-recognition-model">
-<h3>Download an speech recognition model<a class="headerlink" href="#download-an-speech-recognition-model" title="Permalink to this heading"></a></h3>
+<section id="download-a-speech-recognition-model">
+<h3>Download a speech recognition model<a class="headerlink" href="#download-a-speech-recognition-model" title="Permalink to this heading"></a></h3>
 <p>The executable expects a non-streaming speech recognition model. Currently, we have supported the following
 types of models</p>
 <blockquote>
@@ -555,7 +555,7 @@ rm<span class="w"> </span>sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17.tar
 <span class="nb">cd</span><span class="w"> </span>sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17
 
 mv<span class="w"> </span>tokens.txt<span class="w"> </span>../
-mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../
+mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../sense-voice.onnx
 
 <span class="nb">cd</span><span class="w"> </span>../
 rm<span class="w"> </span>-rf<span class="w"> </span>sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17
@@ -573,7 +573,7 @@ rm<span class="w"> </span>sherpa-onnx-paraformer-zh-2023-09-14.tar.bz2
 <span class="nb">cd</span><span class="w"> </span>sherpa-onnx-paraformer-zh-2023-09-14
 
 mv<span class="w"> </span>tokens.txt<span class="w"> </span>../
-mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../
+mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../paraformer.onnx
 
 <span class="nb">cd</span><span class="w"> </span>../
 rm<span class="w"> </span>-rf<span class="w"> </span>sherpa-onnx-paraformer-zh-2023-09-14
@@ -591,7 +591,7 @@ rm<span class="w"> </span>sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04.tar.bz2
 <span class="nb">cd</span><span class="w"> </span>sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04
 
 mv<span class="w"> </span>tokens.txt<span class="w"> </span>../
-mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../
+mv<span class="w"> </span>model.int8.onnx<span class="w"> </span>../telespeech.onnx
 
 <span class="nb">cd</span><span class="w"> </span>../
 rm<span class="w"> </span>-rf<span class="w"> </span>sherpa-onnx-telespeech-ctc-int8-zh-2024-06-04
@@ -602,7 +602,7 @@ rm<span class="w"> </span>-rf<span class="w"> </span>sherpa-onnx-telespeech-ctc-
 <section id="for-the-more-curious">
 <h2>For the more curious<a class="headerlink" href="#for-the-more-curious" title="Permalink to this heading"></a></h2>
 <p>If you want to find out how we generate the APPs in
-<cite>&lt;https://k2-fsa.github.io/sherpa/onnx/lazarus/download-generated-subtitles.html&gt;</cite>,
+<a class="reference external" href="https://k2-fsa.github.io/sherpa/onnx/lazarus/download-generated-subtitles.html">https://k2-fsa.github.io/sherpa/onnx/lazarus/download-generated-subtitles.html</a>,
 please have a look at</p>
 <blockquote>
 <div><ul class="simple">
